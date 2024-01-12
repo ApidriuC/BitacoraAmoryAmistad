@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valen y Andrés❤️</title>
+
+    <!-- CSS -->
+    <link href="css/StyleSheet.css" rel="stylesheet" type="text/css">
+    <!-- JS -->
+    <script type="module" src="js/JsWebSite.js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+</head>
+
+<body onload="WebSite.AddScrollAnimation()">
+    <div class="class-layout-manager">
+        <!-- Header -->
+        <section class="container class-container-header">
+            <nav>
+                <a id="nav-1" href="#section-inicio"
+                    class="button-btn button-nav btn-scroll selected-btn-nav flex-center"
+                    onclick="WebSite.SelectedButtonNav('nav-1')">Inicio</a>
+                <a id="nav-2" href="#section-nosotros" class="button-btn button-nav btn-scroll flex-center"
+                    onclick="WebSite.SelectedButtonNav('nav-2')">Sobre
+                    nosotros</a>
+                <a id="nav-3" href="#section-portafolio" class="button-btn button-nav btn-scroll flex-center"
+                    onclick="WebSite.SelectedButtonNav('nav-3')">Portafolio</a>
+                <a id="nav-4" class="button-btn button-nav flex-center"
+                    onclick="WebSite.OpenModalGame()">Mini-Juegos</a>
+            </nav>
+        </section>
+
+        <!-- Middle -->
+        <section class="class-body-container">
+            <!-- Inicio -->
+            <section id="section-inicio" class="container class-container-middle flex-center">
+                <div class="class-container-intro flex-center">
+                    <div class="icon-intro"></div>
+                    <h1>Instantes Compartidos: Nuestro Camino Juntos</h1>
+                    <span>- Momentos para recordar -</span>
+                </div>
+            </section>
+
+            <!-- Nosotros -->
+            <section id="section-nosotros" class="container class-container-middle2 flex-center">
+                <div class="container-img-left flex-center">
+                    <img src="images/porfalio/collage (9).jpg" alt="preview" class="img-us" />
+                </div>
+                <div class="container-text-right">
+                    <h2 style="margin-bottom: 0;">Sobre nosotros<br><span>__________________________</span></h2>
+                    <p>
+                        Nos encontramos por primera vez el 22 de septiembre de 2022, limitándonos únicamente a un
+                        contacto
+                        visual en ese momento. Sin embargo, la verdadera historia se desencadenó el 1 de diciembre de
+                        2022,
+                        cuando empezamos a fluir y conectar de una manera que nunca hubiera imaginado. Conectamos a
+                        través
+                        de la distancia y esperamos casi dos largos meses para descubrir la peculiar conexión que
+                        estábamos
+                        experimentando.
+                    </p>
+                    <p>
+                        El 20 de enero de 2022 marcó nuestro primer encuentro, y desde entonces, nuestras vidas han
+                        experimentado un cambio radical. Hemos compartido innumerables momentos, experiencias, risas y
+                        desafíos, generando una abundancia de sensaciones y sentimientos que han fortalecido aún más el
+                        vínculo invisible que nos une.Sorprendentemente, en marzo, reuní el valor para dar el paso
+                        definitivo: sí, le pedí que fuera mi novia, y hasta el día de hoy, no me arrepiento ni un
+                        segundo de
+                        todas las decisiones que me llevaron a conocerla.
+                    </p>
+                    <p>
+                        En la actualidad, somos pareja, amigos, cómplices y compañeros de vida. Continuamos aprendiendo
+                        de
+                        nuestras experiencias y errores, hemos vivido momentos únicos, y precisamente esta bitácora es
+                        para
+                        recordar todas aquellas cosas que nos hacen especiales.
+                    </p>
+                </div>
+            </section>
+
+            <!-- Portafolio -->
+            <section id="section-portafolio" class="container class-container-middle3">
+                <div class="container-carousel">
+                    <div class="carousel-track">
+                        <div class="carousel-slide">
+                            <img src="images/porfalio/collage (6).jpg" alt="preview" class="image-collage" />
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/porfalio/collage (14).jpg" alt="preview" class="image-collage" />
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/porfalio/collage (3).jpg" alt="preview" class="image-collage" />
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/porfalio/collage (10).jpg" alt="preview" class="image-collage" />
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/porfalio/collage (5).jpg" alt="preview" class="image-collage" />
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/porfalio/collage (12).jpg" alt="preview" class="image-collage" />
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/porfalio/collage (16).jpg" alt="preview" class="image-collage" />
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/porfalio/collage (8).jpg" alt="preview" class="image-collage" />
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/porfalio/collage (1).jpg" alt="preview" class="image-collage" />
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/porfalio/collage (13).jpg" alt="preview" class="image-collage" />
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/porfalio/collage (2).jpg" alt="preview" class="image-collage" />
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/porfalio/collage (4).jpg" alt="preview" class="image-collage" />
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="images/porfalio/collage (11).jpg" alt="preview" class="image-collage" />
+                        </div>
+                    </div>
+                    <button class="carousel-prev" onclick="WebSite.ShowPrevSlide()">&#10094;</button>
+                    <button class="carousel-next" onclick="WebSite.ShowNextSlide()">&#10095;</button>
+                </div>
+            </section>
+        </section>
+    </div>
+    <div class="modal-eco game-propuesta-matrimonio">
+        <div style="height: 100%;width: 100%;">
+            <h2>MINI - JUEGO</h2>
+            <h4>¿Estarías dispuesta a casarte conmigo si en algún momento te lo propusiera?</h4>
+            <div class="container-buttons-randoms">
+                <button class="btn-mini-game random-btn-static" onclick="WebSite.SaveMiniGame()">SI,
+                    POR SUPUESTO</button>
+                <button class="btn-mini-game random-btn" onmouseover="WebSite.RandomButtonMovement()">NO,
+                    GUACALA</button>
+            </div>
+        </div>
+        <div class="container-close-btn">
+            <button class="btn-close" onclick="WebSite.CloseModalGame()">X</button>
+        </div>
+    </div>
+</body>
+
+</html>
