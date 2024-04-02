@@ -64,7 +64,7 @@ nav {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-image: url(/images/porfalio/HomePage.jpg);
+    background-image: url(BitacoraAmoryAmistad/images/porfalio/HomePage.jpg);
     position: relative;
     filter: brightness(0.6);
 }
@@ -104,7 +104,7 @@ nav {
 
 .icon-intro {
     background-repeat: no-repeat;
-    background-image: url(/images/porfalio/icon_intro.webp);
+    background-image: url(BitacoraAmoryAmistad//images/porfalio/icon_intro.webp);
     background-size: auto;
     background-position: center;
     height: 60px;
